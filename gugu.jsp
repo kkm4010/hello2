@@ -6,16 +6,15 @@
 <meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
 <title>Insert title here</title>
 <script type="text/javascript">
-var num=i*j;
-for (var a=2;a<10;a++)
-	  document.write(a+"단"+"\t");
-document.write();
+	for (var a=2;a<10;a++)
+		  document.write(a+"단"+"\t");
+	document.write("<br>");
 
-for (var i =1; i<=9; i++){
-   for(var j=2;j<=9;j++)
-      document.write(j + "X" +i+"="+(num+"\t"));
-   document.write();
-}
+	for (var i =1; i<=9; i++){
+	   for(var j=2;j<=9;j++)
+	      document.write(j + "X" +i+"="+((j*i)+"\t"));
+	   document.write("<br>");
+		}
 
 
 </script>
